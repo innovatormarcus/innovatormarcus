@@ -13,9 +13,13 @@ Here are some ideas to get you started:
   <img alt="github-snake" src="https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/output/github-snake-dark.svg" />
 </picture>
 
-![Marcus's GitHub stats](https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/main/dist/github-stats.svg)
 
-<p align="left">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/main/dist/github-stats.svg" alt="Marcus's GitHub stats" />
+</p>
+
+
+<p align="center">
     <img src="https://img.shields.io/badge/Python-1E90FF?style=for-the-badge&logo=python&logoColor=white" />
     <img src="https://img.shields.io/badge/R-00BFFF?style=for-the-badge&logo=r&logoColor=white" />
     <img src="https://img.shields.io/badge/Java-2563EB?style=for-the-badge&logo=openjdk&logoColor=white" />
