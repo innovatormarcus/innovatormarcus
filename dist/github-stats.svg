@@ -1,0 +1,19 @@
+<svg width="520" height="210" viewBox="0 0 520 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="210" rx="14" fill="#0d1117"/>
+  <text x="28" y="42" fill="#c9d1d9" font-size="22" font-family="Arial, sans-serif" font-weight="700">
+    Marcus's GitHub Stats
+  </text>
+
+  <text x="28" y="82" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
+    Public repos: 1
+  </text>
+  <text x="28" y="112" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
+    Total stars: 1
+  </text>
+  <text x="28" y="142" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
+    Total forks: 0
+  </text>
+  <text x="28" y="172" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
+    Followers: 4
+  </text>
+</svg>
