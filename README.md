@@ -9,8 +9,6 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with 
 - 📫 How to reach me: guangyuma085@gmail.com
 - ⚡ Fun fact: ...
-<div align="center">
+
 
 ![Marcus's GitHub stats](https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/main/dist/github-stats.svg)
-
-</div>
