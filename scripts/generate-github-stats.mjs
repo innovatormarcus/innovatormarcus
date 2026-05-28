@@ -26,24 +26,68 @@ const stars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
 const forks = repos.reduce((sum, repo) => sum + repo.forks_count, 0);
 
 const svg = `
-<svg width="520" height="210" viewBox="0 0 520 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="520" height="210" rx="14" fill="#0d1117"/>
-  <text x="28" y="42" fill="#c9d1d9" font-size="22" font-family="Arial, sans-serif" font-weight="700">
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="560" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#10233f;#0d1117" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#161b22">
+        <animate attributeName="stop-color" values="#161b22;#0b3d5c;#161b22" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="560" height="230" rx="16" fill="url(#bg)"/>
+
+  <rect x="20" y="20" width="520" height="190" rx="14" fill="#0d1117" opacity="0.72"/>
+  <rect x="20" y="20" width="520" height="190" rx="14" stroke="url(#accent)" opacity="0.7"/>
+
+  <circle cx="500" cy="46" r="5" fill="#2dd4bf" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="42" y="58" fill="#c9d1d9" font-size="23" font-family="Arial, sans-serif" font-weight="700">
     Marcus's GitHub Stats
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="4s" repeatCount="indefinite"/>
   </text>
 
-  <text x="28" y="82" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
-    Public repos: ${user.public_repos}
-  </text>
-  <text x="28" y="112" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
-    Total stars: ${stars}
-  </text>
-  <text x="28" y="142" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
-    Total forks: ${forks}
-  </text>
-  <text x="28" y="172" fill="#58a6ff" font-size="16" font-family="Arial, sans-serif">
-    Followers: ${user.followers}
-  </text>
+  <rect x="42" y="78" width="180" height="3" rx="2" fill="url(#accent)">
+    <animate attributeName="width" values="80;180;80" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="Arial, sans-serif" font-size="16">
+    <text x="42" y="115" fill="#8b949e">Public repos</text>
+    <text x="210" y="115" fill="#58a6ff" font-weight="700">${user.public_repos}</text>
+
+    <text x="42" y="145" fill="#8b949e">Total stars</text>
+    <text x="210" y="145" fill="#58a6ff" font-weight="700">${stars}</text>
+
+    <text x="42" y="175" fill="#8b949e">Total forks</text>
+    <text x="210" y="175" fill="#58a6ff" font-weight="700">${forks}</text>
+
+    <text x="42" y="205" fill="#8b949e">Followers</text>
+    <text x="210" y="205" fill="#58a6ff" font-weight="700">${user.followers}</text>
+  </g>
+
+  <rect x="-120" y="20" width="80" height="190" fill="#ffffff" opacity="0.08" transform="skewX(-20)">
+    <animate attributeName="x" values="-120;620" dur="5s" repeatCount="indefinite"/>
+  </rect>
 </svg>
 `.trim();
 
