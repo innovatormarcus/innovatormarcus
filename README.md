@@ -25,3 +25,6 @@ Here are some ideas to get you started:
     <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
     <img src="https://img.shields.io/badge/GIT-0891B2?style=for-the-badge&logo=git&logoColor=white" />
 </p>
+<p align="center">
+    <img src="https://komarev.com/ghpvc/?username=innovatormarcus&label=Profile%20Views&color=38bdf8&style=for-the-badge" />
+</p>
