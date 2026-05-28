@@ -9,9 +9,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: guangyuma085@gmail.com
 - ⚡ Hobby: Swimming, CS2, Hiking
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/你的用户名/你的用户名/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/你的用户名/你的用户名/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/你的用户名/你的用户名/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/output/github-snake-dark.svg" />
 </picture>
 
 ![Marcus's GitHub stats](https://raw.githubusercontent.com/innovatormarcus/innovatormarcus/main/dist/github-stats.svg)
