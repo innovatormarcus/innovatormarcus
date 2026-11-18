@@ -45,10 +45,10 @@
 
   <g font-family="Arial, sans-serif" font-size="16">
     <text x="42" y="115" fill="#8b949e">Public repos</text>
-    <text x="210" y="115" fill="#58a6ff" font-weight="700">1</text>
+    <text x="210" y="115" fill="#58a6ff" font-weight="700">2</text>
 
     <text x="42" y="145" fill="#8b949e">Total stars</text>
-    <text x="210" y="145" fill="#58a6ff" font-weight="700">1</text>
+    <text x="210" y="145" fill="#58a6ff" font-weight="700">2</text>
 
     <text x="42" y="175" fill="#8b949e">Total forks</text>
     <text x="210" y="175" fill="#58a6ff" font-weight="700">0</text>
